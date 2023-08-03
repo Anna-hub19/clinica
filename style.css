@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+:root{
+    --fundo: linear-gradient(165.96deg, #F8F4FF 0%, #EFF0F4 100%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background: var(--fundo);
+    overflow-x: hidden;
+}
+.cabecalho{
+    display: flex;
+    margin: 57px 25px;
+    gap: 10px;
+}
+.imagem-cabecalho{
+    border-radius: 100px;
+    width: 57px;
+    height: 57px;
+}
+.titulo-cabecalho{
+    color: #464646;
+    font-size: 22px;
+}
+.paragrafo-cabecalho{
+    color: #A3A3A3;
+    font-size: 14px;
+}
+.div-cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-conteudo{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+}
+.perfil{
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+}
+.div-paciente{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+}
+.div-paciente2{
+   margin: 10px 90px 10px 0px ;
+}
+.imagem-camera{
+    float: left;
+    margin: 5px;
+}
+.titulo-paciente{
+    color: #464646;
+    font-size: 14px;
+}
+.paragrafo-paciente{
+color: #A3A3A3;
+font-size: 12px;
+}
+.imagem{
+    height: 3px;
+    width: 100%;
+}
+.paciente2{
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.link {
+    text-decoration: none;
+    background-color: #FFB050;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+}
+.link2{
+    text-decoration: none;
+    
+    color: #464646;
+    padding: 15px;
+    border: #ECECEC solid 2px;
+    border-radius: 10px;
+    width: 50%;
+}
+.div-link{
+    display: flex;
+    gap: 10px;
+}
+.hoje{
+    margin: 5px;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    margin: 100px 0px 0px 0px;
+   background-color: #fff;
+  width: 100%;
+ border-radius: 8px;
+ justify-content: space-between;
+}
+.div-menu{
+  text-align: center;
+  padding: 5px 0px;
+}
+.imagem-menu:hover{
+    transform: scale(1.2);
+}
+.botao{
+    display: flex;
+    justify-content: end;
+}
+.link-local{
+    text-decoration: none;
+    background-color: #4894FF;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+   width: 100%;
+   
+}
+.div-link-local{
+    display: flex;
+}
+.botao-img:hover{
+transform: scale(1.2);
+cursor: pointer;
+}
+
+@media (min-width: 860px){
+    .cabecalho{
+     margin: 57px 25px 0px 300px;
+    }
+    
+    .hoje{
+        margin: 5px 25px 0px 300px;
+    }
+
+    .conteudo{
+   display: flex;
+   justify-content:center;
+    }
+    .section-conteudo{
+        width: 400px;
+    }
+    .menu{
+        position: fixed;
+        top: 0;
+        width: 200px;
+        display: flex;
+        justify-content:start;
+        align-items:start;
+        min-height: 100%;
+        display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 0;
+    padding: 10px;
+    }
+    .div-menu{
+        display: flex;
+        gap: 10px;
+    }
+
+}
